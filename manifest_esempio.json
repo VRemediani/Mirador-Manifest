@@ -1,0 +1,137 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://raw.githubusercontent.com/vedph/test_IIIF/main/manifest_madonna_palafrenieri.json",
+    "@type": "sc:Manifest",
+    "label": "-",
+    "description": "-",
+    "metadata": 
+    [
+        {
+            "label": "Artist / Maker",
+            "value": "-"
+        },
+        {
+            "label": "Date",
+            "value": "-"
+        },
+        {
+            "label": "Culture",
+            "value": "-"
+        },
+        {
+            "label": "Medium / Technique",
+            "value": "-"
+        },
+        {
+            "label": "Dimensions",
+            "value": "- × - cm (- × - in.)"
+        },
+        {
+            "label": "Number of Inventory",
+            "value": "-"
+        },
+        {
+            "label": "Location",
+            "value": "<a href='https://galleriaborghese.beniculturali.it/il-museo/la-villa/sala-8-sala-%e2%80%8bdel-sileno/' target='_blank'>Sala 8 - Sala del Sileno<\/a>"
+        },
+        {
+            "label": "Place Created",
+            "value": "-"
+        },
+        {
+            "label": "Signed",
+            "value": "-"
+        },
+        {
+            "label": "Markings",
+            "value": "-"
+        },
+        {
+            "label": "Classification",
+            "value": "-"
+        },
+        {
+            "label": "Object Type",
+            "value": "-"
+        },
+        {
+            "label": "Collection",
+            "value": "<a href=’https://galleriaborghese.beniculturali.it/' target='_blank'>Galleria Borghese<\/a>"
+        },
+        {
+            "label": "Rights Statement",
+            "value": "-"
+        },
+        {
+            "label": "Full Artwork Details",
+            "value": "-"
+        },
+        {
+            "label": "Frame",
+            "value": "-"
+        },
+        {
+            "label": "Exhibitions",
+            "value": "-"
+        },
+        {
+            "label": "Restauration",
+            "value": "-"
+        },
+        {
+            "label": "Bibliography",
+            "value": "-"
+        },
+        {
+            "label": "Provenance",
+            "value": "-"
+        }
+    ],
+    "thumbnail": "https://data.getty.edu/museum/api/iiif/671108/full/600,472/0/default.jpg",
+    "viewDirection": "right-to-left",
+    "attribution": "Digital image courtesy of the <a href='https://galleriaborghese.beniculturali.it/info/foto-e-video/' target='_blank'>Galleria Borghese<\/a>.",
+    "logo": "http://www.getty.edu/museum/media/graphics/web/logos/getty.png",
+    "within": "http://www.getty.edu/art/collection/",
+    "sequences": [
+        {
+            "@id": "https://data.getty.edu/museum/api/iiif/id:826/sequence/main",
+            "@type": "sc:Sequence",
+            "label": "Object",
+            "viewingDirection": "left-to-right",
+            "viewingHint": "paged",
+            "startCanvas": "https://data.getty.edu/museum/api/iiif/id:826/canvas/main",
+            "canvases": [
+                {
+                    "@id": "https://data.getty.edu/museum/api/iiif/id:826/canvas/main",
+                    "@type": "sc:Canvas",
+                    "label": "Main Image",
+                    "width": 858,
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://data.getty.edu/museum/api/iiif/id:826/annotation/main-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/110_CARAVAGGIO_MADONNA_DEI_PALAFRENIERI.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/110_CARAVAGGIO_MADONNA_DEI_PALAFRENIERI.jpg",
+                                    "profile": "http://iiif.io/api/image/2/profiles/level0.json"
+                                },
+                                "width": 858,
+                                "height": 1200
+                            },
+                            "on": "https://data.getty.edu/museum/api/iiif/id:826/canvas/main"
+                        }
+                    ],
+                    "thumbnail": "https://data.getty.edu/museum/api/iiif/671108/full/600,472/0/default.jpg"
+                }
+            ]
+        }
+    ],
+    "license": "https://galleriaborghese.beniculturali.it/info/foto-e-video/",
+    "related": "https://raw.githubusercontent.com/vedph/test_IIIF/main/manifest_madonna_palafrenieri.json"
+}
