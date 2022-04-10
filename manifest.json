@@ -1,0 +1,58 @@
+{
+   "@context":"http://iiif.io/api/presentation/2/context.json",
+   "@id":"https://raw.githubusercontent.com/VRemediani/test123456/main/manifest.json",
+   "@type":"sc:Manifest",
+   "label":"Image from South Africa",
+   "metadata":[
+      
+   ],
+   "description":[
+      {
+         "@value":"[Click to edit description]",
+         "@language":"en"
+      }
+   ],
+   "sequences":[
+      {
+         "@id":"http://88915e31-55fc-4f7e-81aa-452a1edaecf5",
+         "@type":"sc:Sequence",
+         "label":[
+            {
+               "@value":"Normal Sequence",
+               "@language":"en"
+            }
+         ],
+         "canvases":[
+            {
+               "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg/info.json",
+               "@type":"sc:Canvas",
+               "label":"I:01, recto",
+               "width":379,
+               "height":697,
+               "images":[
+                  {
+                     "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg/info.json",
+                     "@type":"oa:Annotation",
+                     "motivation":"sc:painting",
+                     "on":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg/info.json",
+                     "resource":{
+                        "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg/",
+                        "@type":"dctypes:Image",
+                        "format":"image/jpeg",
+                        "width":379,
+                        "height":697,
+                        "service":{
+                           "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg/",
+                           "@context":"http://iiif.io/api/image/2/context.json",
+                           "profile":"http://iiif.io/api/image/2/level1.json"
+                        }
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+    ],
+    "license": "https://galleriaborghese.beniculturali.it/info/foto-e-video/",
+    "related": "https://raw.githubusercontent.com/vedph/test_IIIF/main/manifest_madonna_palafrenieri.json"
+}
