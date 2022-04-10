@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://raw.githubusercontent.com/vedph/test_IIIF/main/manifest_madonna_palafrenieri.json",
+    "@id": "https://raw.githubusercontent.com/VRemediani/test123456/main/manifest_esempio.json",
     "@type": "sc:Manifest",
     "label": "-",
     "description": "-",
