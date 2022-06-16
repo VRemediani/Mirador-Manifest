@@ -3,61 +3,58 @@
    "@id":"https://raw.githubusercontent.com/VRemediani/test123456/main/manifest.json",
    "@type":"sc:Manifest",
    "label":"Image from South Africa",
-   "service": {
-    "profile": "http://iiif.io/api/search/0/search",
-    "@id": "http://54.38.189.118:8081/search-api/main/search",
-    "@context": "http://iiif.io/api/search/0/context.json"
+   "description":"Manifest Description",
+   "license":"https://creativecommons.org/publicdomain/zero/1.0/",
+   "service":{
+      "profile":"http://iiif.io/api/search/0/search",
+      "@id":"http://54.38.189.118:8081/search-api/main/search",
+      "@context":"http://iiif.io/api/search/0/context.json",
+      "label":"Search within this manifest"
    },
-   "metadata":[
-      
-   ],
-   "description":[
-      {
-         "@value":"[Click to edit description]",
-         "@language":"en"
-      }
-   ],
    "sequences":[
       {
-         "@id":"http://88915e31-55fc-4f7e-81aa-452a1edaecf5",
+         "@context":"http://iiif.io/api/presentation/2/context.json",
+         "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11",
          "@type":"sc:Sequence",
-         "label":[
-            {
-               "@value":"Normal Sequence",
-               "@language":"en"
-            }
-         ],
+         "label":"Current page order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
          "canvases":[
             {
-               "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg/info.json",
+               "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11",
                "@type":"sc:Canvas",
-               "label":"I:01, recto",
-               "width":379,
-               "height":697,
+               "label":"1r",
+               "height":2862,
+               "width":2070,
                "images":[
                   {
-                     "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg/info.json",
+                     "@id":"http://scta.info/iiif/lon/annotation/L1r-image",
                      "@type":"oa:Annotation",
                      "motivation":"sc:painting",
-                     "on":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg/info.json",
+                     "on":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11",
                      "resource":{
-                        "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg/",
+                        "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg",
                         "@type":"dctypes:Image",
-                        "format":"image/jpeg",
-                        "width":379,
+                        "format":"image/jpg",
                         "height":697,
+                        "width":2070,
                         "service":{
-                           "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg/",
                            "@context":"http://iiif.io/api/image/2/context.json",
-                           "profile":"http://iiif.io/api/image/2/level1.json"
+                           "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11",
+                           "profile":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11/info.json"
                         }
                      }
                   }
+               ],
+               "otherContent":[
+                  {
+                     "@id":"http://54.38.189.118:8081/annotation/list/7ff3ddd9c289a6b5cb6d8c315bbe438b.json",
+                     "@type":"sc:AnnotationList",
+                     "label":"by line"
+                  }
                ]
-            }
+            },
          ]
       }
-    ],
-    "license": "https://galleriaborghese.beniculturali.it/info/foto-e-video/",
-    "related": "https://raw.githubusercontent.com/vedph/test_IIIF/main/manifest_madonna_palafrenieri.json"
+   ],
 }
