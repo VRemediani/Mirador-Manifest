@@ -8,6 +8,15 @@
     "@id": "http://54.38.189.118:8888/search-api/main/search",
     "@context": "http://iiif.io/api/search/0/context.json"
    },
+   "metadata":[
+      
+   ],
+   "description":[
+      {
+         "@value":"[Click to edit description]",
+         "@language":"en"
+      }
+   ],
    "sequences":[
       {
          "@id":"http://88915e31-55fc-4f7e-81aa-452a1edaecf5",
