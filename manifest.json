@@ -3,6 +3,11 @@
    "@id":"https://raw.githubusercontent.com/VRemediani/test123456/main/manifest.json",
    "@type":"sc:Manifest",
    "label":"Image from South Africa",
+   "service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "http://54.38.189.118:8888/search-api/main/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+   },
    "metadata":[
       
    ],
