@@ -38,9 +38,9 @@
                         "width":379,
                         "height":697,
                         "service":{
-                           "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg/",
-                           "@context":"http://iiif.io/api/image/2/context.json",
-                           "profile":"http://iiif.io/api/image/2/level1.json"
+                           "profile": "http://iiif.io/api/search/0/search",
+                           "@id": "http://54.38.189.118:8888/search-api/main/search",
+                           "@context": "http://iiif.io/api/search/0/context.json"
                         }
                      }
                   }
