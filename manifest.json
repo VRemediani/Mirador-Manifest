@@ -1,6 +1,6 @@
 {
    "@context":"http://iiif.io/api/presentation/2/context.json",
-   "@id":"https://raw.githubusercontent.com/VRemediani/test123456/main/manifest.json",
+   "@id":"https://raw.githubusercontent.com/VRemediani/Mirador-Manifest/main/manifest.json",
    "@type":"sc:Manifest",
    "label":"Image from South Africa",
    "service":{
