@@ -53,8 +53,10 @@
                      "label":"by line"
                   }
                ]
-            },
+            }
          ]
       }
-   ],
+    ],
+    "license": "https://galleriaborghese.beniculturali.it/info/foto-e-video/",
+    "related": "https://raw.githubusercontent.com/VRemediani/Mirador-Manifest/main/manifest.json"
 }
