@@ -9,9 +9,6 @@
       "@context":"http://iiif.io/api/search/0/context.json",
       "label":"Search within this manifest"
    },
-   "metadata":[
-
-   ],
    "description":[
       {
          "@value":"[Click to edit description]",
