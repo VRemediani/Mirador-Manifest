@@ -5,7 +5,7 @@
    "label":"Image from South Africa",
    "service":{
       "profile":"http://iiif.io/api/search/0/search",
-      "@id": http://54.38.189.118:8081/search-api/main1/search",
+      "@id": "http://54.38.189.118:8081/search-api/main1/search",
       "@context":"http://iiif.io/api/search/0/context.json",
       "label":"Search within this manifest"
    },
