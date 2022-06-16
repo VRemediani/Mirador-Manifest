@@ -42,11 +42,11 @@
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11",
                            "profile":"https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11/info.json"
-                        }
+						}
                      }
                   }
                ],
-               "otherContent":[
+			   "otherContent":[
                   {
                      "@id":"http://54.38.189.118:8081/annotation/list/7ff3ddd9c289a6b5cb6d8c315bbe438b.json",
                      "@type":"sc:AnnotationList",
@@ -54,9 +54,9 @@
                   }
                ]
             }
-         ]
+        ]
       }
     ],
     "license": "https://galleriaborghese.beniculturali.it/info/foto-e-video/",
-    "related": "https://raw.githubusercontent.com/VRemediani/Mirador-Manifest/main/manifest.json"
+    "related": "https://raw.githubusercontent.com/vedph/test_IIIF/main/manifest_madonna_palafrenieri.json"
 }
