@@ -3,6 +3,12 @@
    "@id":"https://raw.githubusercontent.com/VRemediani/test123456/main/manifest.json",
    "@type":"sc:Manifest",
    "label":"Image from South Africa",
+   "service":{
+      "profile":"http://iiif.io/api/search/0/search",
+      "@id":"http://54.38.189.118:8081/search-api/main/search",
+      "@context":"http://iiif.io/api/search/0/context.json",
+      "label":"Search within this manifest"
+   },
    "metadata":[
 
    ],
@@ -47,6 +53,13 @@
                            "profile":"http://iiif.io/api/image/2/level1.json"
                         }
                      }
+                  }
+               ],
+			    "otherContent":[
+                  {
+                     "@id":"http://54.38.189.118:8081/annotation/list/7ff3ddd9c289a6b5cb6d8c315bbe438b.json",
+                     "@type":"sc:AnnotationList",
+                     "label":"by line"
                   }
                ]
             }
