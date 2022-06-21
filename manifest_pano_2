@@ -1,0 +1,66 @@
+{
+   "@context":"http://iiif.io/api/presentation/2/context.json",
+   "@id":"https://raw.githubusercontent.com/VRemediani/Mirador-Manifest/main/manifest_panoramica_vreme.json",
+   "@type":"sc:Manifest",
+   "label":"Sala 1 - Sala della Paolina_vreme3",
+   "description":"La Sala I  ospita una delle sculture più celebri della collezione Borghese, la Statua-ritratto di Paolina Borghese Bonaparte nelle vesti di Venere vincitrice di Antonio Canova (1757-1822). L’opera, collocata in questo ambiente solo dal 1889, trova corrispondenza con i dipinti della volta dedicati alle Storie di Venere e di Enea, eseguiti da Domenico de Angelis (1735-1804) nel 1779. Le cinque tele ( al centro Il giudizio di Paride e ai lati Minerva chiede alla Parca Atropos di tagliare il filo della vita di Troia, Venere convince Giove a salvare Enea, Enea fugge da Troia col padre Anchise e il figlioletto Ascanio, Giunone chiede a Eolo di scatenare tempeste contro Enea) sono inserite nella quadratura prospettica dipinta da Giovanni Battista Marchetti (1730-1800). La sala, che  un tempo era detta “del Vaso”, per la presenza dell’antico cratere neoattico oggi al Louvre, ha conservato solo in minima parte l’aspetto settecentesco, concepito da Antonio Asprucci. Depredata delle sculture più preziose al tempo della vendita napoleonica, ha ricevuto un nuovo assetto espositivo nel secondo decennio dell’Ottocento, sotto la direzione dell’architetto Luigi Canina (1795-1856). Analogamente al precedente allestimento tardo-settecentesco, le sculture si ergono su are antiche e colonne di marmo,  mentre le pareti sono decorate da rilievi antichi e moderni scanditi con rigore geometrico. Tra le opere esposte sono la preziosa Erma di Bacco (1773), di Luigi Valadier (1726-1785); il Gruppo di Leda col cigno ed Eros, opera romana del III secolo d.C. (con testa di Antonina minore non pertinente del I d. C.); le due fronti di Sarcofago in marmo asiatico a colonne con Apollo e le Muse del III secolo d.C.; il rilievo con Aiace e Cassandra del I secolo a.C., in marmo di Paro e il Ritratto d’uomo dalla singolare pettinatura esotica, in marmo bigio, risalente al XVI secolo.",
+   "metadata":[
+      {
+         "label":"Virtual tour",
+         "value":"<a href='https://www.lucavascon.net/test/galleriaborghese/sala1/paolina.html' target='_blank'>Virtual Tour Sala 1 - Sala della Paolina<\/a>"
+      },
+      {
+         "label":"Opere in sala",
+         "value":"<a href='https://galleriaborghese.beniculturali.it/opere/paolina-borghese-bonaparte-come-venere-vincitrice/' target='_blank'>Paolina Borghese Bonaparte come Venere vincitrice - Canova Antonio<\/a>"
+      },
+      {
+         "label":"Opere in sala",
+         "value":"<a href='https://galleriaborghese.beniculturali.it/opere/erma-di-bacco/' target='_blank'>Erma di Bacco - Valadier Luigi<\/a>"
+      }
+   ],
+   "thumbnail":"-",
+   "viewDirection":"right-to-left",
+   "attribution":"Digital image courtesy of the <a href='https://galleriaborghese.beniculturali.it/info/foto-e-video/' target='_blank'>Galleria Borghese<\/a>.",
+   "logo":"https://galleriaborghese.beniculturali.it/wp-content/uploads/logo.svg",
+   "within":"-",
+   "sequences":[
+      {
+         "@id":"-",
+         "@type":"sc:Sequence",
+         "label":"Object",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"-",
+         "canvases":[
+            {
+               "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/s1_panorama.png/info.json",
+               "@type":"sc:Canvas",
+               "label":"Sala 360",
+               "width":858,
+               "height":1200,
+               "images":[
+                  {
+                     "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/s1_panorama.png/info.json",
+                     "@type":"oa:Annotation",
+                     "motivation":"sc:foto360",
+					 "on": "https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/s1_panorama.png/info.json",
+                     "resource":{
+                        "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/s1_panorama.png/",
+                        "@type":"dctypes:Image",
+                        "format":"image/png",
+                        "service":{
+                           "@context":"http://iiif.io/api/image/2/context.json",
+                           "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/s1_panorama.png/",
+                           "profile":"http://iiif.io/api/image/2/profiles/level1.json"
+                        },
+                        "width":18000,
+                        "height":9000
+                     }
+                  }
+               ],
+               "thumbnail":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/s1_panorama.png/full/full/0/default.jpg"
+            }
+         ]
+      }
+   ]
+}
