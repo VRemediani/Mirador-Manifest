@@ -49,7 +49,7 @@
                         "format":"image/jpeg",
                         "service":{
                            "@context":"http://iiif.io/api/image/2/context.json",
-                           "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/110_CARAVAGGIO_MADONNA_DEI_PALAFRENIERI.jpg",
+                           "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/s1_panorama.png",
                            "profile":"http://iiif.io/api/image/2/profiles/level0.json"
                         },
                         "width":858,
@@ -58,85 +58,7 @@
                      "on":"-"
                   }
                ],
-               "thumbnail":"https://raw.githubusercontent.com/vedph/test_IIIF/main/manifest_madonna_palafrenieri.jpg/full/full/0/default.jpg"
-            },
-            {
-               "@id":"-",
-               "@type":"sc:Sequence",
-               "label":"Object",
-               "viewingDirection":"left-to-right",
-               "viewingHint":"paged",
-               "startCanvas":"-",
-               "canvases":[
-                  {
-                     "@id":"-",
-                     "@type":"sc:Canvas",
-                     "label":"Opera in sala: Paolina Borghese Bonaparte come Venere vincitrice - Canova Antonio",
-                     "width":1200,
-                     "height":949,
-                     "images":[
-                        {
-                           "@id":"-",
-                           "@type":"oa:Annotation",
-                           "motivation":"sc:scultura",
-                           "resource":{
-                              "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/LIV_CANOVA_PAOLINA_BORGHESE.jpg/full/full/0/default.jpg",
-                              "@type":"dctypes:Image",
-                              "format":"image/jpeg",
-                              "service":{
-                                 "@context":"http://iiif.io/api/image/2/context.json",
-                                 "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/LIV_CANOVA_PAOLINA_BORGHESE.jpg",
-                                 "profile":"http://iiif.io/api/image/2/profiles/level0.json"
-                              },
-                              "width":1200,
-                              "height":949
-                           },
-                           "on":"-"
-                        }
-                     ],
-                     "thumbnail":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/LIV_CANOVA_PAOLINA_BORGHESE.jpg/full/full/0/default.jpg"
-                  },
-                  {
-                     "@id":"-",
-                     "@type":"sc:Sequence",
-                     "label":"Object",
-                     "viewingDirection":"left-to-right",
-                     "viewingHint":"paged",
-                     "startCanvas":"-",
-                     "canvases":[
-                        {
-                           "@id":"-",
-                           "@type":"sc:Canvas",
-                           "label":"Opera in sala: Erma di Bacco - Valadier Luigi",
-                           "width":800,
-                           "height":1200,
-                           "images":[
-                              {
-                                 "@id":"-",
-                                 "@type":"oa:Annotation",
-                                 "motivation":"sc:scultura",
-                                 "resource":{
-                                    "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/CXXXXV_VALADIER.jpg/full/full/0/default.jpg",
-                                    "@type":"dctypes:Image",
-                                    "format":"image/jpeg",
-                                    "service":{
-                                       "@context":"http://iiif.io/api/image/2/context.json",
-                                       "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/CXXXXV_VALADIER.jpg",
-                                       "profile":"http://iiif.io/api/image/2/profiles/level0.json"
-                                    },
-                                    "width":800,
-                                    "height":1200
-                                 },
-                                 "on":"-"
-                              }
-                           ],
-                           "thumbnail":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/CXXXXV_VALADIER.jpg/full/full/0/default.jpg"
-                        }
-                     ]
-                  }
-               ],
-               "license":"https://galleriaborghese.beniculturali.it/info/foto-e-video/",
-               "related":"https://galleriaborghese.beniculturali.it/il-museo/la-villa/sala-1-sala-della-paolina/"
+               "thumbnail":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/s1_panorama.png/full/full/0/default.jpg"
             }
          ]
       }
