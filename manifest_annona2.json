@@ -23,7 +23,7 @@
          "value":"<a href='https://galleriaborghese.beniculturali.it/opere/erma-di-bacco/' target='_blank'>Erma di Bacco - Valadier Luigi<\/a>"
       }
    ],
-   "thumbnail":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg/full/!400,400/0/default.jpg",
+   "thumbnail":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture02.jpg/full/!400,400/0/default.jpg",
    "viewDirection":"right-to-left",
    "attribution":"Digital image courtesy of the <a href='https://galleriaborghese.beniculturali.it/info/foto-e-video/' target='_blank'>Galleria Borghese<\/a>.",
    "logo":"https://galleriaborghese.beniculturali.it/wp-content/uploads/logo.svg",
@@ -37,31 +37,31 @@
          "viewingHint":"paged",
          "canvases":[
             {
-               "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg",
+               "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture02.jpg",
                "@type":"sc:Canvas",
                "label":"Sala 360",
                "width":397,
                "height":397,
                "images":[
                   {
-                     "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg",
+                     "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture02.jpg",
                      "@type":"oa:Annotation",
                      "motivation":"sc:painting",
                      "resource":{
-                        "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg/full/full/0/default.jpg",
+                        "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture02.jpg/full/full/0/default.jpg",
                         "@type":"dctypes:Image",
-                        "format":"image/png",
+                        "format":"image/jpeg",
+                        "width":379,
+                        "height":697,
                         "service":{
                            "@context":"http://iiif.io/api/image/2/context.json",
-                           "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg/",
+                           "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture02.jpg",
                            "profile":"http://iiif.io/api/image/2/profiles/level1.json"
-                        },
-                        "width":379,
-                        "height":697
+                        }
                      }
                   }
                ],
-               "thumbnail":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg/full/full/0/default.jpg/full/full/60/default.jpg"
+               "thumbnail":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture02.jpg/full/full/0/default.jpg/full/full/60/default.jpg"
             }
          ]
       }
