@@ -1,8 +1,8 @@
 {
    "@context":"http://iiif.io/api/presentation/2/context.json",
-   "@id":"https://raw.githubusercontent.com/VRemediani/Mirador-Manifest/main/manifest_annona.json",
+   "@id":"https://raw.githubusercontent.com/VRemediani/Mirador-Manifest/main/manifest_annona2.json",
    "@type":"sc:Manifest",
-   "label":"Annona_test1",
+   "label":"Annona_test2",
    "service": {
    	"profile": "http://iiif.io/api/search/0/search",
    	"@id": "http://54.38.189.118:8081/search-api/494300fe2ce73d7034e7d127b804ad19/search",
@@ -23,19 +23,18 @@
          "value":"<a href='https://galleriaborghese.beniculturali.it/opere/erma-di-bacco/' target='_blank'>Erma di Bacco - Valadier Luigi<\/a>"
       }
    ],
-   "thumbnail":"-",
+   "thumbnail":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg/full/!400,400/0/default.jpg",
    "viewDirection":"right-to-left",
    "attribution":"Digital image courtesy of the <a href='https://galleriaborghese.beniculturali.it/info/foto-e-video/' target='_blank'>Galleria Borghese<\/a>.",
    "logo":"https://galleriaborghese.beniculturali.it/wp-content/uploads/logo.svg",
    "within":"-",
    "sequences":[
       {
-         "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/sequence1",
+         "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share#sequence1",
          "@type":"sc:Sequence",
          "label":"Object",
          "viewingDirection":"left-to-right",
          "viewingHint":"paged",
-         "startCanvas":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg",
          "canvases":[
             {
                "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg",
@@ -45,12 +44,11 @@
                "height":397,
                "images":[
                   {
-                     "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg/info.json",
+                     "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg",
                      "@type":"oa:Annotation",
-                     "motivation":"sc:foto360",
-					 "on": "https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg/info.json",
+                     "motivation":"sc:painting",
                      "resource":{
-                        "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg/",
+                        "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture01.jpg/full/full/0/default.jpg",
                         "@type":"dctypes:Image",
                         "format":"image/png",
                         "service":{
