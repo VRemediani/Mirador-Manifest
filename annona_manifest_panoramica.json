@@ -40,8 +40,8 @@
                "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/sala_panoramica_2.png",
                "@type":"sc:Canvas",
                "label":"Sala 360",
-               "width":397,
-               "height":397,
+               "width":18000,
+               "height":9000,
                "images":[
                   {
                      "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/sala_panoramica_2.png",
@@ -51,8 +51,8 @@
                         "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/sala_panoramica_2.png/full/full/0/default.jpg",
                         "@type":"dctypes:Image",
                         "format":"image/jpeg",
-                        "width":379,
-                        "height":697,
+                        "width":18000,
+                        "height":9000,
                         "service":{
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/sala_panoramica_2.png",
