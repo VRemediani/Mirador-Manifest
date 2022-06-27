@@ -56,9 +56,10 @@
                         "service":{
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture02.jpg",
-                           "profile":"http://iiif.io/api/image/2/profiles/level1.json"
+                           "profile":"http://iiif.io/api/image/2/level2.json"
                         }
-                     }
+                     },
+					 "on": "https://6012.cophilab-cloud.ilc.cnr.it/share/Picture02.jpg"
                   }
                ],
                "thumbnail":"https://6012.cophilab-cloud.ilc.cnr.it/share/Picture02.jpg/full/full/0/default.jpg"
